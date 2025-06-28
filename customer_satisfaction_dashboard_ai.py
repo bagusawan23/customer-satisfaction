@@ -165,10 +165,15 @@ Data menunjukkan performa prediksi model customer satisfaction:
 - R2 Score: {r2:.2f}
 Fitur: {", ".join(numeric_features + categorical_features)}
 
-Tolong berikan:
-1. Penjelasan performa model
-2. Insight dari data
-3. Rekomendasi peningkatan layanan
+Berdasarkan hasil analisis data dan performa model prediksi kepuasan pelanggan, tolong berikan penjelasan yang ringkas, relevan, dan dapat ditindaklanjuti oleh pemangku kepentingan.
+
+1. Jelaskan performa model secara sederhana, termasuk makna nilai error dan akurasi, serta apakah model ini dapat diandalkan untuk mendukung pengambilan keputusan strategis.
+
+2. Uraikan insight atau pola penting dari data yang berdampak terhadap kepuasan pelanggan, seperti faktor dominan yang menurunkan atau meningkatkan skor kepuasan.
+
+3. Berikan minimal 3 rekomendasi kebijakan atau perbaikan layanan yang konkret dan berbasis data, yang bisa diterapkan untuk meningkatkan kepuasan pelanggan secara signifikan.
+
+Sampaikan dalam Bahasa Indonesia yang lugas dan mudah dipahami oleh manajer non-teknis.
 Jawab dalam Bahasa Indonesia.
 '''
         with st.spinner("Meminta insight dari AI..."):
