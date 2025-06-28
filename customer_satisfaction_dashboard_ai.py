@@ -15,9 +15,7 @@ from sklearn.model_selection import train_test_split
 
 st.set_page_config(page_title="📊 Customer Satisfaction Dashboard", layout="wide")
 st.title("📊 Customer Satisfaction Dashboard")
-st.markdown("Unggah data customer satisfaction (CSV/XLSX). \n📎 File simulasi dapat diunduh di sini:
-https://docs.google.com/spreadsheets/d/1fsgG2YOwC7IrE95269Eak48qXgK8ESwH/edit?usp=drive_link&ouid=115356310150317657781&rtpof=true&sd=true atau \n
-https://docs.google.com/spreadsheets/d/11a0DTomwu7gDcRtoe_30Y0G0E9FbNiRx/edit?usp=drive_link&ouid=115356310150317657781&rtpof=true&sd=true")
+st.markdown("Unggah data customer satisfaction (CSV/XLSX). \n📎 File simulasi dapat diunduh di sini: https://docs.google.com/spreadsheets/d/1fsgG2YOwC7IrE95269Eak48qXgK8ESwH/edit?usp=drive_link&ouid=115356310150317657781&rtpof=true&sd=true atau \n https://docs.google.com/spreadsheets/d/11a0DTomwu7gDcRtoe_30Y0G0E9FbNiRx/edit?usp=drive_link&ouid=115356310150317657781&rtpof=true&sd=true")
 
 # --- AI Function ---
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
