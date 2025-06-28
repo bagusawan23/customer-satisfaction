@@ -18,7 +18,7 @@ st.title("📊 Customer Satisfaction Dashboard")
 
 # --- AI Function ---
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"
+API_KEY = st.secrets["openrouter_api_key"]
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
